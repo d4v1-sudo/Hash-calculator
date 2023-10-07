@@ -17,11 +17,13 @@ You can use this script in the following ways:
 
 - **Calculate Hash**:
 
-python3 script.py -e --algorithm sha256 "Your message here"
+  ```shell
+  python3 script.py -e --algorithm algorithm-option "Your message here"
 
 - **Verify Hash**:
 
-python3 script.py -v --algorithm sha256 "Your message here" "Expected hash"
+  ```shell
+  python3 script.py -v --algorithm algorithm-option "Your message here" "Expected hash"
 
 - **Choose Algorithm**:
 
