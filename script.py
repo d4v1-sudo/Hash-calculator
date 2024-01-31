@@ -42,8 +42,8 @@ def main():
     args = parser.parse_args()
 
     if not args.algorithm:
-        print("Choose an algorithm: --sha256, --blake512, or --blake2b")
-        return
+        args.algorithm = 'sha256'
+        print(f"Using SHA-256 as the default algorithm.")
 
     if args.encrypt:
         if args.algorithm == 'sha256':
