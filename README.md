@@ -39,3 +39,8 @@ Ensure you have the required library installed:
 
 ```bash
 pip install pycryptodome==3.11.0
+```
+
+## Note
+
+It isn't possible to decipher a hash. The reason is that a hash function is a one-way mathematical function. This means that while it's relatively easy to compute the hash of some data, it's extremely difficult (practically impossible) to reverse the process and obtain the original data from the hash. This property is essential for ensuring the security and integrity of cryptographic systems and digital signatures.
