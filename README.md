@@ -18,12 +18,12 @@ You can use this script in the following ways:
 - **Calculate Hash**:
 
   ```shell
-  python3 script.py -e --algorithm "Your message here"
+  python3 script.py -e <algorithm> "<Your message here>"
 
 - **Verify Hash**:
 
   ```shell
-  python3 script.py -v --algorithm "Your message here" "Expected hash"
+  python3 script.py -v <algorithm> "<Your message here>" "<Expected hash>"
 
 - **Choose Algorithm**:
 
